@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Trial Web</title>
+    <style>
+        body {
+            background-color: pink;
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            background: linear-gradient(to right, #ff69b4, #ffb6c1);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        input, textarea {
+            margin-top: 5px;
+            padding: 8px;
+            border: 1px solid #ff69b4;
+            border-radius: 4px;
+            width: 300px;
+        }
+        
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning Tracking Site for trial</h1>
+    <form>
+        <label for="Date">Date:</label>
+        <input type="date" id="Date" name="Date"><br>
+        <label for="Topic">Topic:</label>
+        <input type="text" id="Topic" name="Topic"><br>
+        <label for="Notes">Notes:</label>
+        <textarea id="Notes" name="Notes" placeholder="Enter your notes here..."></textarea><br>
+    </form>
+</body>
+</html>
